@@ -15,14 +15,14 @@ This project demonstrates the development of a real-time data pipeline designed 
 * PostgreSQL: Database for storing and analyzing the ingested data.
 ### Architecture Overview
 1. Producer Script: Written in Python, the producer script connects to the Alpha Vantage API to fetch live stock data and sends it to Kafka.
-![Screenshot (851)](https://github.com/user-attachments/assets/a899c165-2f84-4809-9f50-7c04b6fa5a93)
+![Screenshot (851)](https://github.com/Vaskar71/Realtime-Data-Pipeline-for-Stock-Market-Analysis/blob/main/images/Producer.png?raw=true)
 3. Kafka Streams: Apache Kafka serves as the streaming backbone, receiving data from the producer and forwarding it to a PostgreSQL database.
-![Screenshot (840)](https://github.com/user-attachments/assets/4d0fe560-8536-40e3-ac4e-bb3a7dca0bf5)
+![Screenshot (840)](https://github.com/Vaskar71/Realtime-Data-Pipeline-for-Stock-Market-Analysis/blob/main/images/Kafka%20Streams.png?raw=true)
 
 5. Consumer Script: Another Python script reads data from Kafka topics and loads it into PostgreSQL for analysis and visualization.
-![Screenshot (850)](https://github.com/user-attachments/assets/39d358a4-c58c-4320-8d53-01571723c621)
+![Screenshot (850)](https://github.com/Vaskar71/Realtime-Data-Pipeline-for-Stock-Market-Analysis/blob/main/images/Consumer%20Script.png?raw=true)
 7. Data Analysis: SQL queries and aggregations on the PostgreSQL database allow for insightful analysis of real-time stock data.
-![Screenshot (845)](https://github.com/user-attachments/assets/fa0f1344-5577-4778-8d00-0c472e3ce2a2)
+![Screenshot (845)](https://github.com/Vaskar71/Realtime-Data-Pipeline-for-Stock-Market-Analysis/blob/main/images/Data%20Analysis.png?raw=true)
 ### Learning Outcomes
 * Stream Processing with Kafka: Developed skills in handling real-time data using Apache Kafka, setting up topics, and managing data streams.
 * ETL Workflow: Gained experience in ETL (Extract, Transform, Load) processes, integrating APIs, streaming platforms, and databases.
@@ -38,7 +38,7 @@ This project demonstrates the development of a real-time data pipeline designed 
 
 bash
 
-`git clone https://github.com/yourusername/stock-market-pipeline.git`
+`git clone [https://github.com/Vaskar71/Realtime-Data-Pipeline-for-Stock-Market-Analysis.git]`
 
 2. Install the required Python packages:
 
