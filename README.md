@@ -64,5 +64,3 @@ bash
 ### Future Work
 Visualization: Integrate with Tableau or Power BI for dynamic data visualization.
 Scalability: Expand the pipeline to handle multiple data sources and enhance fault tolerance.
-### About Me
-I am a data scientist passionate about building real-time data solutions that drive business insights. This project showcases my skills in data engineering, particularly in stream processing, ETL workflows, and integrating modern data technologies.
